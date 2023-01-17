@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  list-style-type: none;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.p1 {
+  background-color: #b36050;
+  color: #f1d3b9;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  padding: 10px;
+}
+.navbar {
+  background-color: #f6f4ec;
+  height: 61px;
+}
+.nbp {
+  color: rgba(180, 96, 77, 1);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: left;
+  display: inline-block;
+  margin: 20px 16px 20px;
+}
+.logo {
+  margin: 0px 490px -20px 250px;
+  
+}
+.nbp1 {
+  margin-left: 0px;
+}
+.nbp5 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.intro {
+  background: #a9ae8d;
+}
+
+.intro h3 {
+  padding: 69px 599px 15px;
+  text-transform: uppercase;
+  color: #f6f4ec;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+.intro h1 {
+  color: #f6f4ec;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 64px;
+}
+.intro button {
+  text-transform: uppercase;
+  margin: 28px 656px 51px;
+  height: 48px;
+  width: 128px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  color: #ffffff;
+  background: #b45f4d;
+  border: none;
+}
+.s1 {
+  background: #f6f4ec;
+  margin: 0;
+}
+.s1 h2 {
+  padding: 39px 600px 44px;
+  color: #b45f4d;
+}
+.cards {
+  display: flex;
+  margin: 0px 70px 32px 70px;
+}
+.cards img {
+  margin: 0px 25px 40px;
+}
+.cards p {
+  text-transform: uppercase;
+  display: block;
+  color: #b45f4d;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 10px 40px 7px;
+  text-align: left;
+}
+.imgleft {
+  padding-right: 1050px;
+  padding-bottom: 45px;
+}
+.imgright {
+  padding-bottom: 45px;
+}
+.s2 img {
+  text-align: center;
+  margin: 35px 110px;
+  width: 1219px;
+  height: 414px;
+}
+.s2txt {
+  position: relative;
+  margin: -180px 110px 86px 110px;
+  width: 1219px;
+  height: 92px;
+  background-color: #df9b7a;
+  color: #f6f4ec;
+}
+.s2p1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100px;
+}
+.s2p2 {
+  display: inline-block;
+  margin-left: 550px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+.s3 {
+  display: flex;
+  background: #f1d3b9;
+  text-align: center;
+}
+.s3 img {
+  margin: 84px 53px 96px 190px;
+}
+.s3text {
+  background: #f8f8f8;
+  height: 582px;
+  width: 518px;
+  color: #b45f4d;
+  margin: 160px 188px 172px 0px;
+  float: right;
+}
+.s3text h3 {
+  padding: 50px 0 22px;
+  font-size: 30px;
+}
+.s3text p {
+  padding: 0px 51px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: left;
+}
+.s3text h4 {
+  padding: 41px 51px 50px 51px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+.lasts h2 {
+  padding: 54px;
+}
+.grid div {
+  display: inline-block;
+}
+.pic1 {
+  background-image: url(./images/pic1.png);
+}
+.pic2 {
+  background-image: url(./images/pic2.png);
+}
+.pic3 {
+  background-image: url(./images/pic3.png);
+}
+.pic4 {
+  background-image: url(./images/pic4.png);
+}
+.pic5 {
+  background-image: url(./images/pic5.png);
+}
+.pic6 {
+  background-image: url(./images/pic6.png);
+}
+.grid img {
+  margin-top: 74px;
+}
+.grid div {
+  width: 230px;
+  height: 130px;
+  margin: 5px 3px 40px;
+}
+
+footer section{
+  background: #f6f4ec;
+  color: #b45f4d;
+}
+footer .left {
+  display: inline-block;
+  width: 13%;
+}
+footer ul {
+  text-transform: capitalize;
+  height: 90px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 64px;
+  padding-left: 30px;
+}
+li {
+  text-align: left;
+  margin: 12px;
+}
+footer .semileft {
+  display: inline-block;
+  width: 15%;
+}
+footer .right {
+  display: inline-block;
+  width: 70%;
+  padding-left: 400px;
+}
+footer button {
+  text-align: right;
+  border: 2px solid #b5614d;
+  width: 500px;
+  height: 44px;
+  background: #f6f4ec;
+  color: #b45f4d;
+  text-transform: uppercase;
+  padding: 13px 12px 20px 0px;
+}
+.right h4 {
+  padding-top: 64px;
+  text-align: left;
+  padding-left: 55px;
+}
+.right p {
+  text-align: left;
+  padding-left: 55px;
+  padding-top: 5px;
+}
+hr {
+  background: #f1d3b9;
+  height: 3px;
+  margin-top: 57px;
+  border: none;
+}
+.lastp {
+  padding: 18px 0 18px;
+}
